@@ -9,7 +9,7 @@ public:
     bool containsDuplicate(vector<int>& nums) {
         unordered_set<int> s;
         for(int i=0;i<nums.size();i++){
-            if(!s.insert(nums[i]).second){ //in unordered_set insert returns a pair{iterator,bool} bool true if already there false if not
+            if(!s.insert(nums[i]).second){ //in unordered_set insert returns a pair{iterator,bool} bool true if inserted false if already there
                 
                 return true;
             }
