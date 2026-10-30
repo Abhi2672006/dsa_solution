@@ -1,6 +1,6 @@
 # 46 Permutations
 
-## Solution using map and recursion
+## Solution using map and recursion backtrak
 
 ```cpp
 void f(int n,vector<vector<int>> &arr,vector<int> &arr1,vector<bool>&mp,int nums[]){
